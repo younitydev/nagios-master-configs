@@ -1,0 +1,40 @@
+site,site_ip,group,name,address,use,check
+siteA,3.84.205.21,siteA_backbone,fw01,172.16.0.1,it-service,check_ping
+siteA,3.84.205.21,siteA_backbone,fw02,172.16.0.2,it-service,check_ping
+siteA,3.84.205.21,siteA_backbone,bb01,172.16.0.3,it-service,check_ping
+siteA,3.84.205.21,siteA_backbone,bb02,172.16.0.4,it-service,check_ping
+siteA,3.84.205.21,siteA_floor1,ap01_a1,172.16.0.5,ap-service,check_ping
+siteA,3.84.205.21,siteA_floor1,ap01_a2,172.16.0.6,ap-service,check_ping
+siteA,3.84.205.21,siteA_floor1,sw01,172.16.0.7,sw-service,check_ping
+siteA,3.84.205.21,siteA_floor2,ap02_a1,172.16.0.8,ap-service,check_ping
+siteA,3.84.205.21,siteA_floor2,ap02_a2,172.16.0.9,ap-service,check_ping
+siteA,3.84.205.21,siteA_floor2,sw02,172.16.0.10,sw-service,check_ping
+siteA,3.84.205.21,siteA_floor3,ap03_a1,172.16.0.11,ap-service,check_ping
+siteA,3.84.205.21,siteA_floor3,ap03_a2,172.16.0.12,ap-service,check_ping
+siteA,3.84.205.21,siteA_floor3,sw03,172.16.0.13,sw-service,check_ping
+siteA,3.84.205.21,siteA_it,ESXi,172.16.0.14,it-service,check_ping
+siteA,3.84.205.21,siteA_it,Agent,172.16.0.15,it-service,check_ping
+siteA,3.84.205.21,siteA_backbone,ISP1 PING,82.166.23.206,isp-service,check_ping
+siteA,3.84.205.21,siteA_backbone,ISP2 PING,82.166.23.205,isp-service,check_ping
+siteA,3.84.205.21,siteA_backbone,ISP1 HTTP,gmail.com,isp-service,check_http
+siteA,3.84.205.21,siteA_backbone,ISP1 DNS,8.8.8.8,isp-service,check_dns
+siteA,3.84.205.21,siteA_cloud,Controller_controller,5.65.13.10,it-service,check_ping
+siteA,3.84.205.21,siteA_cloud,Controller_controller_secondary,5.65.13.11,it-service,check_ping
+siteB,4.64.20.99,siteB_backbone,Firewall,10.0.0.1,it-service,check_ping
+siteB,4.64.20.99,siteB_floor1,ap01_a1,10.0.0.2,ap-service,check_ping
+siteB,4.64.20.99,siteB_floor1,ap01_a2,10.0.0.3,ap-service,check_ping
+siteB,4.64.20.99,siteB_floor1,sw01,10.0.0.4,sw-service,check_ping
+siteB,4.64.20.99,siteB_floor2,ap02_a1,10.0.0.5,ap-service,check_ping
+siteB,4.64.20.99,siteB_floor2,ap02_a2,10.0.0.6,ap-service,check_ping
+siteB,4.64.20.99,siteB_floor2,sw02,10.0.0.7,sw-service,check_ping
+siteB,4.64.20.99,siteB_floor3,ap03_a1,10.0.0.8,ap-service,check_ping
+siteB,4.64.20.99,siteB_floor3,ap03_a2,10.0.0.9,ap-service,check_ping
+siteB,4.64.20.99,siteB_floor3,sw03,10.0.0.10,sw-service,check_ping
+siteB,4.64.20.99,siteB_it,ESXi,10.0.0.11,it-service,check_ping
+siteB,4.64.20.99,siteB_it,Agent,10.0.0.12,it-service,check_ping
+siteB,4.64.20.99,siteB_backbone,ISP1 PING,82.166.23.206,isp-service,check_ping
+siteB,4.64.20.99,siteB_backbone,ISP2 PING,82.166.23.205,isp-service,check_ping
+siteB,4.64.20.99,siteB_backbone,ISP1 HTTP,gmail.com,isp-service,check_http
+siteB,4.64.20.99,siteB_backbone,ISP1 DNS,8.8.8.8,isp-service,check_dns
+siteB,4.64.20.99,siteB_cloud,Controller_controller,5.65.13.10,it-service,check_ping
+siteB,4.64.20.99,siteB_cloud,Controller_controller_secondary,5.65.13.11,it-service,check_ping
